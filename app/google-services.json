@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "481830554546",
+    "project_id": "namegame-5e098",
+    "storage_bucket": "namegame-5e098.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481830554546:android:b81203d978419abca3f2ab",
+        "android_client_info": {
+          "package_name": "com.example.namegame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "481830554546-gjtkrbdrpdvsojl50g4vomhhoh05bnhe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB26JuETv21CFaqllqCTx2euOR5ohGivw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "481830554546-gjtkrbdrpdvsojl50g4vomhhoh05bnhe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

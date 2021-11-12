@@ -10,9 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NameGame">
         <activity
+            android:name=".PracticeModeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TimedModeActivity"
+            android:exported="false" />
+        <activity
             android:name=".HomeScreen"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
