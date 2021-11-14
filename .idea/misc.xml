@@ -6,6 +6,11 @@
         <entry key="..\:/Users/Max/AndroidStudioProjects/NameGame/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3828125" />
         <entry key="..\:/Users/Max/AndroidStudioProjects/NameGame/app/src/main/res/layout/activity_home_screen.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/Max/AndroidStudioProjects/NameGame/app/src/main/res/layout/activity_main.xml" value="0.25407608695652173" />
+        <entry key="..\:/Users/Max/AndroidStudioProjects/NameGame/app/src/main/res/layout/activity_practice_mode.xml" value="0.21" />
+        <entry key="..\:/Users/Max/AndroidStudioProjects/NameGame/app/src/main/res/layout/activity_timed_mode.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Max/AndroidStudioProjects/NameGame/app/src/main/res/layout/fragment_home_screen.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/Max/AndroidStudioProjects/NameGame/app/src/main/res/layout/fragment_practice_mode.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/Max/AndroidStudioProjects/NameGame/app/src/main/res/layout/fragment_timed_mode.xml" value="0.19791666666666666" />
       </map>
     </option>
   </component>
