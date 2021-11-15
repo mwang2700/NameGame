@@ -40,12 +40,10 @@
 
         <TableLayout
             android:id="@+id/tableLayout"
-            android:layout_width="390dp"
-            android:layout_height="390dp"
-            android:layout_marginStart="18dp"
-            android:layout_marginTop="275dp"
-            android:layout_marginEnd="18dp"
-            android:layout_marginBottom="275dp"
+            android:layout_width="510dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="50dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -57,38 +55,24 @@
 
                 <ImageView
                     android:id="@+id/timedImage1"
-                    android:layout_width="195dp"
-                    android:layout_height="130dp"
+                    android:layout_width="170dp"
+                    android:layout_height="150dp"
                     tools:layout_editor_absoluteX="16dp"
                     tools:layout_editor_absoluteY="27dp"
                     tools:srcCompat="@tools:sample/avatars" />
 
                 <ImageView
                     android:id="@+id/timedImage2"
-                    android:layout_width="195dp"
-                    android:layout_height="130dp"
+                    android:layout_width="170dp"
+                    android:layout_height="150dp"
                     tools:layout_editor_absoluteX="16dp"
                     tools:layout_editor_absoluteY="27dp"
                     tools:srcCompat="@tools:sample/avatars" />
-
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
 
                 <ImageView
                     android:id="@+id/timedImage3"
-                    android:layout_width="195dp"
-                    android:layout_height="130dp"
-                    tools:layout_editor_absoluteX="16dp"
-                    tools:layout_editor_absoluteY="27dp"
-                    tools:srcCompat="@tools:sample/avatars" />
-
-                <ImageView
-                    android:id="@+id/timedImage4"
-                    android:layout_width="195dp"
-                    android:layout_height="130dp"
+                    android:layout_width="170dp"
+                    android:layout_height="150dp"
                     tools:layout_editor_absoluteX="16dp"
                     tools:layout_editor_absoluteY="27dp"
                     tools:srcCompat="@tools:sample/avatars" />
@@ -100,17 +84,25 @@
                 android:layout_height="match_parent">
 
                 <ImageView
+                    android:id="@+id/timedImage4"
+                    android:layout_width="170dp"
+                    android:layout_height="150dp"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="27dp"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <ImageView
                     android:id="@+id/timedImage5"
-                    android:layout_width="195dp"
-                    android:layout_height="130dp"
+                    android:layout_width="170dp"
+                    android:layout_height="150dp"
                     tools:layout_editor_absoluteX="16dp"
                     tools:layout_editor_absoluteY="27dp"
                     tools:srcCompat="@tools:sample/avatars" />
 
                 <ImageView
                     android:id="@+id/timedImage6"
-                    android:layout_width="195dp"
-                    android:layout_height="130dp"
+                    android:layout_width="170dp"
+                    android:layout_height="150dp"
                     tools:layout_editor_absoluteX="16dp"
                     tools:layout_editor_absoluteY="27dp"
                     tools:srcCompat="@tools:sample/avatars" />
@@ -123,16 +115,17 @@
             android:id="@+id/practiceTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="60dp"
-            android:layout_marginBottom="20dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
             android:text="Person"
             android:textColor="#000000"
             android:textSize="24sp"
-            app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.062"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.773" />
+            app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
