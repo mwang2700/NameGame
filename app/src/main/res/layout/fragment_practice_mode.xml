@@ -56,7 +56,7 @@
                 android:layout_height="match_parent">
 
                 <ImageView
-                    android:id="@+id/timedImage1"
+                    android:id="@+id/practiceImage1"
                     android:layout_width="195dp"
                     android:layout_height="130dp"
                     tools:layout_editor_absoluteX="16dp"
@@ -64,29 +64,7 @@
                     tools:srcCompat="@tools:sample/avatars" />
 
                 <ImageView
-                    android:id="@+id/timedImage2"
-                    android:layout_width="195dp"
-                    android:layout_height="130dp"
-                    tools:layout_editor_absoluteX="16dp"
-                    tools:layout_editor_absoluteY="27dp"
-                    tools:srcCompat="@tools:sample/avatars" />
-
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <ImageView
-                    android:id="@+id/timedImage3"
-                    android:layout_width="195dp"
-                    android:layout_height="130dp"
-                    tools:layout_editor_absoluteX="16dp"
-                    tools:layout_editor_absoluteY="27dp"
-                    tools:srcCompat="@tools:sample/avatars" />
-
-                <ImageView
-                    android:id="@+id/timedImage4"
+                    android:id="@+id/practiceImage2"
                     android:layout_width="195dp"
                     android:layout_height="130dp"
                     tools:layout_editor_absoluteX="16dp"
@@ -100,7 +78,7 @@
                 android:layout_height="match_parent">
 
                 <ImageView
-                    android:id="@+id/timedImage5"
+                    android:id="@+id/practiceImage3"
                     android:layout_width="195dp"
                     android:layout_height="130dp"
                     tools:layout_editor_absoluteX="16dp"
@@ -108,7 +86,29 @@
                     tools:srcCompat="@tools:sample/avatars" />
 
                 <ImageView
-                    android:id="@+id/timedImage6"
+                    android:id="@+id/practiceImage4"
+                    android:layout_width="195dp"
+                    android:layout_height="130dp"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="27dp"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/practiceImage5"
+                    android:layout_width="195dp"
+                    android:layout_height="130dp"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="27dp"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <ImageView
+                    android:id="@+id/practiceImage6"
                     android:layout_width="195dp"
                     android:layout_height="130dp"
                     tools:layout_editor_absoluteX="16dp"
